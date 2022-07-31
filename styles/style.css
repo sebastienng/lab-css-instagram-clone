@@ -7,4 +7,120 @@ light blue: #1c5380
 body {
   font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
+  
+}
+
+main{
+  width: 100vw;
+  height: 80vh;
+  background-image: url('../images/bgtile.png');
+  background-repeat: repeat-x; 
+ 
+
+}
+#log-in{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 40px;
+  padding:5px 10px;
+  background: #6F92B0;
+  background: -moz-linear-gradient(top, #6F92B0 0%, #497499 100%);
+  background: -webkit-linear-gradient(top, #6F92B0 0%, #497499 100%);
+  background: linear-gradient(to bottom, #6F92B0 0%, #497499 100%);
+  border-radius: 3px;
+  -webkit-box-shadow: 6px 6px 17px -4px rgba(0,0,0,0.56); 
+box-shadow: 6px 6px 17px -4px rgba(0,0,0,0.56);
+  border: 1px solid #3e688d;
+  color: white;
+
+}
+#top-content{
+  display: flex;
+  flex-direction: row;
+  padding : 5%;
+  gap: 30px;
+}
+ 
+#left-image-phones{
+  width: 40vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#rigth-info{
+
+  width: 495px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+
+header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 10px;
+ 
+  
+}
+#home-bttn-img{
+  margin-right : 5px;
+}
+
+#content-div{
+  
+  background-image: url('../images/frame.png');
+  background-repeat: no-repeat; 
+  padding-top : 20px;
+  padding-left: 40px;
+  padding-right: 20px;
+  color: #5c5c5c;
+  font-weight: 300;
+  font-size: 1rem;
+ 
+}
+
+h2 {
+  width: 60%;
+  color:#052e55;
+}
+
+
+#download{
+  display: flex;
+  justify-content: start; 
+  gap :30px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+a{
+  text-decoration: none;
+}
+.item-list{
+  font-weight: 500;
+  color: #577EA0;
+}
+
+#copyrigth-name{
+  color : #b7b7b8;
+  font-weight: 400;
+  padding-left: 10px;
+}
+
+footer{
+  display: flex;
+  justify-content: center;
+  margin-top : 5vh;
+  font-size: 0.7rem;
+  width: 100vw;
+  height: 20vh;
 }
